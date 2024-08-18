@@ -3,7 +3,7 @@
 ## import exetension
 
 1. Dowload project into local
-2. Navigate to chrome extension -> manage extension
+2. Open chrome browses and navigate to chrome extension -> manage extension
 3. Click on "load unpacked"
 
 <img width="481" alt="image" src="https://github.com/user-attachments/assets/677c6801-e100-424d-a5f9-bcd9024da0d7">
