@@ -11,7 +11,7 @@
 
 
 
-4. import script folder . You should see Zerodha order extension added to your chrome
+4. import extension folder . You should see Zerodha order extension added to your chrome
    
    <img width="428" alt="image" src="https://github.com/user-attachments/assets/f6b5effb-9c1c-4bbe-81fb-efd7fe34c2ec">
    
