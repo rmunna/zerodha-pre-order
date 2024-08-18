@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Zerodha Place Order",
+  "version": "1.0",
+  "description": "Automatically clicks a button at 9:00 AM IST.",
+  "permissions": [
+    "alarms",
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://kite.zerodha.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://kite.zerodha.com/*"],  // Adjust this to match your specific URL or pattern
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+    }
+  }
+}
