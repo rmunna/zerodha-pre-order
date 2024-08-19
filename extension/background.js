@@ -1,7 +1,7 @@
 const TARGET_HOUR = 8; 
 const TARGET_MINUTE = 59;
 const TARGET_SECOND = 59; 
-const TARGET_MILLISECOND = 950; // Network latency between bangalore and mumbai is ~20ms
+const TARGET_MILLISECOND = 980; // Network latency between bangalore and mumbai is ~20ms
 
 function setAlarm() {
   const now = new Date();
